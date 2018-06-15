@@ -1,6 +1,7 @@
 
 view: o.svg
 	firefox o.svg
+	touch ref_test.go
 
 o.svg: t.dot
 	dot -Tsvg -o o.svg t.dot

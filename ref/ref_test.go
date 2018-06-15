@@ -29,5 +29,5 @@ func TestSet(t *testing.T) {
 	})
 	fmt.Println(g.Dot())
 
-	ioutil.WriteFile("t.dot", []byte(g.Dot()), 0)
+	ioutil.WriteFile("t.dot", []byte(g.Dot()), 0600)
 }
